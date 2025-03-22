@@ -43,8 +43,22 @@ main{
     width: 200px;
 }
 
-@media(min-width: 480px) {
+@media(max-width: 600px) {
     body{
         overflow: auto;
+    }
+    .Conteudo-Texto h1{
+        font-size: 15px;
+    }
+    .Conteudo-Texto p{
+        font-size: 15px;
+    }
+    .Imagens-Logo{
+        height: 25px;
+        width: 25px;
+    }
+    .authoPhoto{
+        height: 100px;
+        width: 100px;
     }
 }
