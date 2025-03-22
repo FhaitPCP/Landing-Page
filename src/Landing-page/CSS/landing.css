@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    align-items: center;
+    /* Definindo um gradiente linear */
+    background: linear-gradient(to bottom, rgb(63, 107, 238), rgb(0, 0, 0));
+    /* Certifique-se de que o fundo ocupe a tela inteira */
+    height: 100vh;
+    overflow: hidden;
+} 
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Conteudo-Texto, .Conteudo-Imagem{
+    display: grid;
+    padding: 20px;
+}
+.Conteudo-Texto{
+    place-items: center;
+    width: 90%;
+}
+.Conteudo-Texto h1,p{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Conteudo-Texto p{
+    color: whitesmoke;
+    font-size: 20px;
+}
+.Conteudo-Imagem{
+   display: flex;
+   flex-direction: row;
+   gap: 15px;
+}
+.Imagens-Logo{
+    height: 45px;
+    width: 45px;
+}
+.authoPhoto{
+    height: 200px;
+    width: 200px;
+}
