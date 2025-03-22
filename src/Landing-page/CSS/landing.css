@@ -21,9 +21,12 @@ main{
     place-items: center;
     width: 90%;
 }
-.Conteudo-Texto h1,p{
+.Conteudo-Texto h1,h2,p{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Conteudo-Texto h2{
+    color: aliceblue;
 }
 .Conteudo-Texto p{
     color: whitesmoke;
@@ -32,7 +35,7 @@ main{
 .Conteudo-Imagem{
    display: flex;
    flex-direction: row;
-   gap: 15px;
+   gap: 10px 10px;
 }
 .Imagens-Logo{
     height: 45px;
